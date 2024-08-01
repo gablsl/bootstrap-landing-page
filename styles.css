@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .slider-img {
+    order: -1;
+  }
+
+  .brands .col img {
+    width: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .brands {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  #informations {
+    display: flex;
+    justify-content: center;
+  }
+
+  #informations-container {
+    max-width: 80%;
+  }
+
+  .col-title {
+    font-size: 16px;
+  }
+}
